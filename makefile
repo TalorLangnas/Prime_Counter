@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -g -Wall -pthread
-OBJ = myPrimeCounter.o task.o queue_task.o producer.o worker.o
+OBJ = myPrimeCounter.o task.o queue_task.o producer.o worker.o algorithms.o
 TARGET = myPrimeCounter
 
 all: $(TARGET)
